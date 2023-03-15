@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // cloudinary configuration
 
 app.get("/employees", (request, response) => {
-  response.json(employeesModel.EmployeeInfo)
+  response.json(employeesModel.EmployeeInfo);
 });
 
 module.exports = app;
